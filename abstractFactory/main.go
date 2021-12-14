@@ -21,14 +21,14 @@ func main() {
 
 func printShoeDetails(s iShoe) {
 	fmt.Printf("Logo: %s", s.getLogo())
-	fmt.Println()
+	fmt.Println("")
 	fmt.Printf("Size: %d", s.getSize())
-	fmt.Println()
+	fmt.Println("")
 }
 
 func printShirtDetails(s iShirt) {
 	fmt.Printf("Logo: %s", s.getLogo())
-	fmt.Println()
+	fmt.Println("")
 	fmt.Printf("Size: %d", s.getSize())
-	fmt.Println()
+	fmt.Println("")
 }
